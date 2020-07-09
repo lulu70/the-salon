@@ -1,0 +1,54 @@
+{
+  "salons": [
+    {
+      "id": 0,
+      "name": "Sax & Fön",
+      "address": "Rådmansgatan 46",
+      "time": "12.00",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": "320 kr",
+      "timeSlot": "30 min"
+    },
+    {
+      "id": 1,
+      "name": "Hårizont",
+      "address": "Rådmansgatan 46",
+      "time": "12.00",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": "320 kr",
+      "timeSlot": "30 min"
+    },
+    {
+      "id": 2,
+      "name": "Hårhuset",
+      "address": "Rådmansgatan 46",
+      "time": "12.00",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": "320 kr",
+      "timeSlot": "30 min"
+    },
+    {
+      "id": 3,
+      "name": "Hair & Nu",
+      "address": "Rådmansgatan 46",
+      "time": "12.00",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": "320 kr",
+      "timeSlot": "30 min"
+    },
+    {
+      "id": 4,
+      "name": "Hårley Davidson",
+      "address": "Rådmansgatan 46",
+      "time": "12.00",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": "320 kr",
+      "timeSlot": "30 min"
+    }
+  ]
+}
