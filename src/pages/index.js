@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import MobileStatusBar from "../components/MobileStatusBar"
+import ListViewHeader from "../components/ListViewHeader"
 
 const IndexPage = ({ data }) => {
   const salons = data.dataJson.salons
@@ -10,6 +11,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <MobileStatusBar />
+      <ListViewHeader />
       <ul>
         {salons.map(salon => (
           <li key={salon.id}>{salon.name}</li>
