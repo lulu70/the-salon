@@ -14,13 +14,25 @@ const Header = styled.h1`
   margin: 0;
   font-weight: 300;
 `
+const FilterButton = styled.button`
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+`
 
-const ListViewHeader = () => {
+const ListViewHeader = ({ showAllIntervals, setShowAllIntervals }) => {
+  const handleFilterClick = () => {
+    setShowAllIntervals(!showAllIntervals)
+  }
+
   return (
     <Container>
       <ArrowSVG />
       <Header>Här</Header>
-      <FilterSVG />
+      <FilterButton onClick={handleFilterClick}>
+        <FilterSVG />
+      </FilterButton>
     </Container>
   )
 }
