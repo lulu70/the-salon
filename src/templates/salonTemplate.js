@@ -6,6 +6,7 @@ import MobileStatusBar from "../components/MobileStatusBar"
 import GatsbyImage from "gatsby-image"
 import styled from "styled-components"
 import Overlay from "../components/Overlay"
+import TabBar from "../components/TabBar"
 
 const StyledImage = styled(GatsbyImage)``
 
@@ -16,8 +17,9 @@ const SalonTemplate = ({ data }) => {
     <Layout>
       <SEO title={salon.name} />
       <StyledImage fluid={image.fluid} />
-      <Overlay salon={salon} />
       <MobileStatusBar mode="dark" />
+      <Overlay salon={salon} />
+      <TabBar />
     </Layout>
   )
 }
