@@ -2,14 +2,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import MobileStatusBar from "../components/MobileStatusBar"
 import ListViewHeader from "../components/ListViewHeader"
 import Filter from "../components/Filter"
 import SalonList from "../components/SalonList"
+import MobileStatusBar from "../components/MobileStatusBar"
 
 const IndexPage = ({ data }) => {
   const [showAllIntervals, setShowAllIntervals] = React.useState(false)
-  const [selectedInterval, setSelectedInterval] = React.useState(["250 - 500"])
+  const [selectedInterval, setSelectedInterval] = React.useState("250 - 500")
 
   const salons = data.dataJson.salons
   const matchingSalons = salons.filter(
@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <MobileStatusBar />
+      <MobileStatusBar mode="light" />
       <ListViewHeader
         showAllIntervals={showAllIntervals}
         setShowAllIntervals={setShowAllIntervals}
@@ -44,6 +44,7 @@ export const query = graphql`
       priceIntervals
       salons {
         id
+        slug
         name
         address
         time

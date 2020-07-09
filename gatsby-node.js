@@ -1,7 +1,16 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require(`path`)
+const data = require("./src/data/data.json")
 
-// You can delete this file if you're not using it
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions
+  data.salons.forEach(salon => {
+    createPage({
+      path: salon.slug,
+      component: path.resolve(`./src/templates/salonTemplate.js`),
+      context: {
+        salon,
+        image: salon.image,
+      },
+    })
+  })
+}

@@ -2,8 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import RightArrowSvg from "../assets/right-arrow.svg"
-import StarSvg from "../assets/star.svg"
-import EmptyStarSvg from "../assets/empty-star.svg"
+import Rating from "./Rating"
 
 const List = styled.ul`
   list-style: none;
@@ -47,15 +46,6 @@ const SalonHeader = styled.h2`
   font-family: MillerBanner light;
   margin-bottom: 13px;
 `
-const RatingContainer = styled.div`
-  font-size: 11px;
-  margin-bottom: 13px;
-  display: flex;
-  align-items: center;
-`
-const RatingCount = styled.span`
-  margin-left: 8px;
-`
 const Address = styled.div`
   font-size: 15px;
   color: #656565;
@@ -65,23 +55,11 @@ const SalonList = ({ salons }) => {
     <List>
       {salons.map(salon => (
         <ListItem key={salon.id}>
-          <StyledLink to={"/"}>
+          <StyledLink to={salon.slug}>
             <FirstColumn>{salon.time}</FirstColumn>
             <SecondColumn>
               <SalonHeader>{salon.name}</SalonHeader>
-              <RatingContainer>
-                {Array(salon.rating)
-                  .fill()
-                  .map((_, index) => (
-                    <StarSvg key={index} />
-                  ))}
-                {Array(5 - salon.rating)
-                  .fill()
-                  .map((_, index) => (
-                    <EmptyStarSvg key={index} />
-                  ))}
-                <RatingCount>({salon.ratingCount})</RatingCount>
-              </RatingContainer>
+              <Rating salon={salon} mode="small" />
               <Address>{salon.address}</Address>
             </SecondColumn>
             <ThirdColumn>

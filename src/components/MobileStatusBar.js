@@ -10,6 +10,10 @@ const Container = styled.div`
   justify-content: space-between;
   font-family: sans-serif;
   font-size: 12px;
+  color: ${props => (props.mode === "dark" ? "white" : "black")};
+  position: absolute;
+  top: 0;
+  width: 100%;
 `
 const NetworkContainer = styled.div`
   display: flex;
@@ -23,7 +27,7 @@ const MobileSignalContainer = styled.div`
   margin-right: 4px;
 `
 const Circle = styled.div`
-  background-color: black;
+  background-color: ${props => (props.mode === "dark" ? "white" : "black")};
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -50,15 +54,15 @@ const StyledBatteryIcon = styled(MdBatteryFull)`
   font-size: 20px;
 `
 
-const MobileStatusBar = () => {
+const MobileStatusBar = ({ mode }) => {
   return (
-    <Container>
+    <Container mode={mode}>
       <NetworkContainer>
         <MobileSignalContainer>
           {Array(5)
             .fill()
             .map((_, index) => (
-              <Circle key={index} />
+              <Circle key={index} mode={mode} />
             ))}
         </MobileSignalContainer>
         <Provider>Sketch</Provider>

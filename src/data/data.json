@@ -3,6 +3,7 @@
   "salons": [
     {
       "id": 0,
+      "slug": "sax-&-fön",
       "name": "Sax & Fön",
       "address": "Rådmansgatan 46",
       "time": "12.00",
@@ -10,10 +11,12 @@
       "ratingCount": 32,
       "price": "320 kr",
       "timeSlot": "30 min",
-      "priceInterval": "250 - 500"
+      "priceInterval": "250 - 500",
+      "image": "mainImage.jpg"
     },
     {
       "id": 1,
+      "slug": "hårizont",
       "name": "Hårizont",
       "address": "Rådmansgatan 46",
       "time": "12.00",
@@ -21,10 +24,12 @@
       "ratingCount": 32,
       "price": "320 kr",
       "timeSlot": "30 min",
-      "priceInterval": "250 - 500"
+      "priceInterval": "250 - 500",
+      "image": "mainImage.jpg"
     },
     {
       "id": 2,
+      "slug": "hårhuset",
       "name": "Hårhuset",
       "address": "Rådmansgatan 46",
       "time": "12.00",
@@ -32,10 +37,12 @@
       "ratingCount": 32,
       "price": "520 kr",
       "timeSlot": "30 min",
-      "priceInterval": "500 - 750"
+      "priceInterval": "500 - 750",
+      "image": "mainImage.jpg"
     },
     {
       "id": 3,
+      "slug": "hair-&-nu",
       "name": "Hair & Nu",
       "address": "Rådmansgatan 46",
       "time": "12.00",
@@ -43,10 +50,12 @@
       "ratingCount": 32,
       "price": "320 kr",
       "timeSlot": "30 min",
-      "priceInterval": "250 - 500"
+      "priceInterval": "250 - 500",
+      "image": "mainImage.jpg"
     },
     {
       "id": 4,
+      "slug": "hårley-davidson",
       "name": "Hårley Davidson",
       "address": "Rådmansgatan 46",
       "time": "12.00",
@@ -54,10 +63,12 @@
       "ratingCount": 32,
       "price": "320 kr",
       "timeSlot": "30 min",
-      "priceInterval": "250 - 500"
+      "priceInterval": "250 - 500",
+      "image": "mainImage.jpg"
     },
     {
       "id": 5,
+      "slug": "maxart-ab",
       "name": "MAxArt AB",
       "address": "Artillerigatan 83",
       "time": "12.00",
@@ -65,10 +76,12 @@
       "ratingCount": 32,
       "price": "120 kr",
       "timeSlot": "30 min",
-      "priceInterval": "100 - 250"
+      "priceInterval": "100 - 250",
+      "image": "mainImage.jpg"
     },
     {
       "id": 6,
+      "slug": "peach-stockholm-vasastan",
       "name": "Peach Stockholm Vasastan",
       "address": "Vanadisplan 2",
       "time": "12.00",
@@ -76,7 +89,8 @@
       "ratingCount": 32,
       "price": "850 kr",
       "timeSlot": "30 min",
-      "priceInterval": "750 - 1000"
+      "priceInterval": "750 - 1000",
+      "image": "mainImage.jpg"
     }
   ]
 }

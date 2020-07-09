@@ -9,10 +9,13 @@ const Container = styled.div`
   height: 667px;
   border: solid 1px;
 `
+const Main = styled.main`
+  position: relative;
+`
 const Layout = ({ children }) => {
   return (
     <Container>
-      <main>{children}</main>
+      <Main>{children}</Main>
     </Container>
   )
 }
