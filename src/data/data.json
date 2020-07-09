@@ -6,7 +6,7 @@
       "name": "Sax & Fön",
       "address": "Rådmansgatan 46",
       "time": "12.00",
-      "rating": 4,
+      "rating": 5,
       "ratingCount": 32,
       "price": "320 kr",
       "timeSlot": "30 min",
@@ -28,11 +28,11 @@
       "name": "Hårhuset",
       "address": "Rådmansgatan 46",
       "time": "12.00",
-      "rating": 4,
+      "rating": 2,
       "ratingCount": 32,
-      "price": "320 kr",
+      "price": "520 kr",
       "timeSlot": "30 min",
-      "priceInterval": "250 - 500"
+      "priceInterval": "500 - 750"
     },
     {
       "id": 3,
@@ -55,6 +55,28 @@
       "price": "320 kr",
       "timeSlot": "30 min",
       "priceInterval": "250 - 500"
+    },
+    {
+      "id": 5,
+      "name": "MAxArt AB",
+      "address": "Artillerigatan 83",
+      "time": "12.00",
+      "rating": 5,
+      "ratingCount": 32,
+      "price": "120 kr",
+      "timeSlot": "30 min",
+      "priceInterval": "100 - 250"
+    },
+    {
+      "id": 6,
+      "name": "Peach Stockholm Vasastan",
+      "address": "Vanadisplan 2",
+      "time": "12.00",
+      "rating": 3,
+      "ratingCount": 32,
+      "price": "850 kr",
+      "timeSlot": "30 min",
+      "priceInterval": "750 - 1000"
     }
   ]
 }
