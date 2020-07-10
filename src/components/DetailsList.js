@@ -14,7 +14,7 @@ const DetailsList = ({ salon }) => {
       </ListItem>
       <ListItem>
         <ClockSvg />
-        <Detail>{salon.closingTime}</Detail>
+        <Detail> Öppet till {salon.closingTime} idag</Detail>
       </ListItem>
       <ListItem>
         <PhoneSvg />

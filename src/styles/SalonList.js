@@ -55,4 +55,5 @@ export const SalonHeader = styled.h2`
 export const Address = styled.div`
   font-size: 15px;
   color: #656565;
+  max-width: 130px;
 `
