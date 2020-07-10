@@ -1,11 +1,10 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import ListViewHeader from "../components/ListViewHeader"
 import Filter from "../components/Filter"
+import Layout from "../components/layout"
+import ListViewHeader from "../components/ListViewHeader"
 import SalonList from "../components/SalonList"
-// import MobileStatusBar from "../components/MobileStatusBar"
+import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
   const [showAllIntervals, setShowAllIntervals] = React.useState(false)
@@ -16,10 +15,10 @@ const IndexPage = ({ data }) => {
     salon => salon.priceInterval === selectedInterval
   )
   const priceIntervals = data.dataJson.priceIntervals
+
   return (
     <Layout>
-      <SEO title="Home" />
-      {/* <MobileStatusBar mode="light" /> */}
+      <SEO title="List view" />
       <ListViewHeader
         showAllIntervals={showAllIntervals}
         setShowAllIntervals={setShowAllIntervals}

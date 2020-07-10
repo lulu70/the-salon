@@ -1,25 +1,9 @@
 import React from "react"
-import styled from "styled-components"
 import PinSvg from "../assets/pin.svg"
 import ClockSvg from "../assets/clock.svg"
 import PhoneSvg from "../assets/phone.svg"
 import GlobeSvg from "../assets/globe.svg"
-const Container = styled.ul`
-  margin: 0;
-  list-style: none;
-  font-family: HelveticaNeue;
-  color: "#202020";
-  font-weight: 300;
-`
-const ListItem = styled.li`
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  border-bottom: 0.5px solid #eeeeee;
-`
-const Detail = styled.span`
-  margin-left: 1rem;
-`
+import { Container, ListItem, Detail } from "../styles/DetailsList"
 
 const DetailsList = ({ salon }) => {
   return (
