@@ -8,7 +8,7 @@ export const List = styled.ul`
   font-family: HelveticaNeue;
 `
 export const ListItem = styled.li`
-  padding: 13px 0;
+  padding: 0 0 13px 0;
   border-bottom: solid 0.5px #eeeeee;
 `
 export const StyledLink = styled(Link)`
@@ -20,11 +20,14 @@ export const StyledLink = styled(Link)`
 `
 export const FirstColumn = styled.div`
   align-self: flex-start;
+  margin-right: 15px;
+  padding-top: 2px;
 `
 export const SecondColumn = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex: 1;
 `
 export const ThirdColumn = styled.div`
   display: flex;
@@ -32,6 +35,7 @@ export const ThirdColumn = styled.div`
   justify-content: space-between;
   height: 100%;
   align-self: flex-start;
+  margin-right: 30px;
 `
 export const Price = styled.div`
   font-size: 15px;
