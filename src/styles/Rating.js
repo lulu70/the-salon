@@ -11,6 +11,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   font-family: HelveticaNeue;
+  margin-bottom: 13px;
 `
 export const RatingCount = styled.span`
   margin-left: 8px;

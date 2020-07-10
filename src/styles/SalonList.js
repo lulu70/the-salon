@@ -8,7 +8,8 @@ export const List = styled.ul`
   font-family: HelveticaNeue;
 `
 export const ListItem = styled.li`
-  margin-bottom: 28px;
+  padding: 13px 0;
+  border-bottom: solid 0.5px #eeeeee;
 `
 export const StyledLink = styled(Link)`
   text-decoration: none;
@@ -20,7 +21,11 @@ export const StyledLink = styled(Link)`
 export const FirstColumn = styled.div`
   align-self: flex-start;
 `
-export const SecondColumn = styled.div``
+export const SecondColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
 export const ThirdColumn = styled.div`
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@ export const Container = styled.ul`
   margin: 0;
   list-style: none;
   font-family: HelveticaNeue;
-  color: "#202020";
+  color: #202020;
   font-weight: 300;
 `
 export const ListItem = styled.li`
