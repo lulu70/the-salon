@@ -140,7 +140,7 @@ button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 button:focus {
-  outline: dashed #b69f58 1px;
+  outline: none;
 }
 fieldset {
   border: 1px solid silver;

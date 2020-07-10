@@ -6,7 +6,7 @@ import ListViewHeader from "../components/ListViewHeader"
 import SalonList from "../components/SalonList"
 import SEO from "../components/seo"
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, location }) => {
   const [showAllIntervals, setShowAllIntervals] = React.useState(false)
   const [selectedInterval, setSelectedInterval] = React.useState("250 - 500")
 
@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
   const priceIntervals = data.dataJson.priceIntervals
 
   return (
-    <Layout>
+    <Layout location={location}>
       <SEO title="List view" />
       <ListViewHeader
         showAllIntervals={showAllIntervals}

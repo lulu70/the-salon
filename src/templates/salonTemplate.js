@@ -8,11 +8,11 @@ import Overlay from "../components/Overlay"
 import SEO from "../components/seo"
 import TabBar from "../components/TabBar"
 
-const SalonTemplate = ({ data }) => {
+const SalonTemplate = ({ data, location }) => {
   const salon = data.sitePage.context.salon
   const image = data.imageSharp
   return (
-    <Layout>
+    <Layout location={location}>
       <SEO title={salon.name} />
       <GatsbyImage fluid={image.fluid} />
       <Overlay salon={salon} />

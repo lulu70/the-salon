@@ -17,4 +17,5 @@ export const FilterButton = styled.button`
   background-color: transparent;
   border: none;
   padding: 0;
+  cursor: pointer;
 `

@@ -9,7 +9,7 @@ const Overlay = ({ salon }) => {
   return (
     <Container>
       <TopRow>
-        <Link to="/">
+        <Link to="/" state={{ animate: "ltr" }}>
           <LeftArrowSvg />
         </Link>
         <HeartSvg />

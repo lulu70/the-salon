@@ -16,6 +16,7 @@ export const IntervalButton = styled.button`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  cursor: pointer;
 `
 export const Interval = styled.li`
   color: #202020;

@@ -1,11 +1,21 @@
 import React from "react"
 import "../styles/layout.css"
 import { Container, Main } from "../styles/layout"
-
-const Layout = ({ children }) => {
+import { useSpring, animated } from "react-spring"
+const Layout = ({ children, location }) => {
+  const animateMode = location.state && location.state.animate
+  const spring = useSpring({
+    from: {
+      transform: `translateX(${
+        animateMode ? (animateMode === "rtl" ? "375" : "-375") : "0"
+      }px)`,
+    },
+    transform: "translateX(0px)",
+  })
+  const AnimatedMain = animated(Main)
   return (
     <Container>
-      <Main>{children}</Main>
+      <AnimatedMain style={spring}>{children}</AnimatedMain>
     </Container>
   )
 }

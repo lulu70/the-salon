@@ -20,7 +20,7 @@ const SalonList = ({ salons }) => {
     <List>
       {salons.map(salon => (
         <ListItem key={salon.id}>
-          <StyledLink to={salon.slug}>
+          <StyledLink to={salon.slug} state={{ animate: "rtl" }}>
             <FirstColumn>{salon.time}</FirstColumn>
             <SecondColumn>
               <SalonHeader>{salon.name}</SalonHeader>
