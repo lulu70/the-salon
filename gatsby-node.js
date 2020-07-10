@@ -1,7 +1,7 @@
 const path = require(`path`)
 const data = require("./src/data/data.json")
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ actions }) => {
   const { createPage } = actions
   data.salons.forEach(salon => {
     createPage({

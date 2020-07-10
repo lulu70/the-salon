@@ -12,7 +12,11 @@
       "price": "320 kr",
       "timeSlot": "30 min",
       "priceInterval": "250 - 500",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "19:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 1,
@@ -25,7 +29,11 @@
       "price": "320 kr",
       "timeSlot": "30 min",
       "priceInterval": "250 - 500",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "19:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 2,
@@ -38,7 +46,11 @@
       "price": "520 kr",
       "timeSlot": "30 min",
       "priceInterval": "500 - 750",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "19:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 3,
@@ -51,7 +63,11 @@
       "price": "320 kr",
       "timeSlot": "30 min",
       "priceInterval": "250 - 500",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "18:30",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 4,
@@ -64,7 +80,11 @@
       "price": "320 kr",
       "timeSlot": "30 min",
       "priceInterval": "250 - 500",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "20:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 5,
@@ -77,7 +97,11 @@
       "price": "120 kr",
       "timeSlot": "30 min",
       "priceInterval": "100 - 250",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "19:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     },
     {
       "id": 6,
@@ -90,7 +114,11 @@
       "price": "850 kr",
       "timeSlot": "30 min",
       "priceInterval": "750 - 1000",
-      "image": "mainImage.jpg"
+      "image": "mainImage.jpg",
+      "closingTime": "18:00",
+      "phoneNumber": "08-522 389 20",
+      "website": "www.salongweb.se",
+      "description": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
     }
   ]
 }

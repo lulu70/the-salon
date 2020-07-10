@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 import ListViewHeader from "../components/ListViewHeader"
 import Filter from "../components/Filter"
 import SalonList from "../components/SalonList"
-import MobileStatusBar from "../components/MobileStatusBar"
+// import MobileStatusBar from "../components/MobileStatusBar"
 
 const IndexPage = ({ data }) => {
   const [showAllIntervals, setShowAllIntervals] = React.useState(false)
@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <MobileStatusBar mode="light" />
+      {/* <MobileStatusBar mode="light" /> */}
       <ListViewHeader
         showAllIntervals={showAllIntervals}
         setShowAllIntervals={setShowAllIntervals}
