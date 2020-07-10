@@ -6,7 +6,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/AnimationProvider.js`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
           include: /assets/,
