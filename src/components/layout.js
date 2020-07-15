@@ -10,9 +10,6 @@ const Layout = ({ children, location }) => {
         animateMode ? (animateMode === "rtl" ? "375" : "-375") : "0"
       }px)`,
     },
-    onRest() {
-      window.history.pushState({}, "")
-    },
     transform: "translateX(0px)",
   })
   const AnimatedMain = animated(Main)
